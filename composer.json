@@ -1,0 +1,24 @@
+{
+    "name": "laravel-cli/laravel-cli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jiayx",
+            "email": "i@jiayx.net"
+        }
+    ],
+    "require": {
+        "laravel-cli/framework": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../framework"
+        }
+    ]
+}
